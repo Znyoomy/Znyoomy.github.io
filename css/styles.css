@@ -117,6 +117,70 @@ main h1 {
 
 /* Contact */
 
+#contact h1 {
+	padding-top: 2em;
+}
+
+#contact-links {
+	padding: 30px 0 30px 0;
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	margin: auto;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #c0c0c0;
+	font-family: 'Open Sans';
+	font-size: 25px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon svg {
+	width: 40px;
+	padding: 0 9px;
+}
+
+.contact-icon:hover {
+	fill: #eeeeee;
+	color: #eeeeee !important;
+}
+
+.instagram-icon {
+	fill: #E4405F;
+}
+
+.twitter-icon {
+	fill: #1DA1F2;
+}
+
+.discord-icon {
+	fill: #5865F2
+}
+
+.gmail-icon {
+	fill: #EA4335;
+}
+
+@media screen and (max-width: 1300px) {
+	#contact a {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#contact-links {
+		flex-direction: column;
+	}
+	#contact a {
+		flex-direction: row;
+		padding: 10px 0 10px;
+	}
+}
+
 /* Footer */
 
 footer {
